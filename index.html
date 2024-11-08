@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sara Abdel Baset - Assignment#4</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+      <!--AOS Link (Animate On Scroll)-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+     <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="popup-is-active">
+     <!--pop up-->
+    <section class="pop-up" id="popup">
+      <div class="popup-content">
+        <div class="container">
+          <div class="card-flex">
+            <div class="card-left">
+              <form method="post">
+                <h3>First time here?</h3>
+                <h2>Sign-up to our exclusive mailing list where you can get 15% off your first reservation.</h2>
+
+                <label> Email </label>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Please enter your email here"
+                />
+                <input type="submit" name="buttonelement" value="Submit Now" />
+              </form>
+              <button id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="card-right"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of pop-->
+    <!--Start of the navigation-->
+    <header class="restau-header" id="header">
+      <div class="container">
+        <div class="header-flex">
+          <div class="logo">eatwell</div>
+
+          <div class="burger-icon" id="burger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div class="menu-holder">
+            <button id="close-nav">
+              <i class="fa-regular fa-rectangle-xmark"></i>
+            </button>
+            <ul class="header-menu">
+              <li>
+                <a href="">home</a>
+              </li>
+              <li>
+                <a href="">about</a>
+              </li>
+              <li>
+                <a href="">offer</a>
+              </li>
+              <li>
+                <a href="">menu</a>
+              </li>
+              <li>
+                <a href="">news</a>
+              </li>
+              <li>
+                <a href="">gallery</a>
+              </li>
+              <li>
+                <a href="">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--End of navigation-->
+
+    <!--Start of the main banner-->
+    <section class="restau-banner">
+      <div class="container">
+        <h1>welcome to eatwell</h1>
+        <p>Come and eat well with our delicious & healthy foods.</p>
+        <a href="" class="btn-1">reservation</a>
+      </div>
+    </section>
+    <!--End of the main banner-->
+
+    <!--Start of the left and right (welcome) section-->
+    <section class="welcome">
+      <div class="container">
+        <div class="welcome-flex">
+          <div class="welcome-left"data-aos="flip-right"data-aos-easing="ease-in"data-aos-duration="1000"
+          data-aos-delay="1000">
+            <!--welcome left side-->
+            <h3>our story</h3>
+            <h2>welcome</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <p>
+              A small river named Duden flows by their place and supplied it
+              with the necessary regelialia.It is a paradisematic country, in
+              which roasted parts of the sentences fly into your mouth.
+            </p>
+            <a href="" class="btn-2">learn more about us</a>
+          </div>
+          <!--welcome right-->
+          <div class="welcome-right"data-aos="flip-right"data-aos-easing="ease-out-in"data-aos-duration="1000"
+          data-aos-delay="1000"></div>
+        </div>
+        <!--End of welcome-flex-->
+      </div>
+      <!--End of container-->
+    </section>
+    <!--End of the left and right (welcome) section-->
+    <!--Start of Offer header section-->
+    <section class="offer">
+      <div class="container">
+        <div class="header-of-offer">
+          <h3>our offers</h3>
+          <h2>our offer this summer</h2>
+          <p>
+            Far, far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div> <!--end of offer header-->
+        <!--Start of offer grid section-->
+        <div class="offer-grid-parent">
+          <!--1st Offer card-->
+          <div class="offer-card"data-aos="flip-down"data-aos-duration="100">
+            <div class="image-here"></div>
+            <div class="text-here">
+              <h4>$19.50</h4>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Far, far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="" class="btn-3">order now!</a>
+            </div>
+          </div>
+          <!--end of 1st Offer card-->
+          <!--2nd Offer card-->
+          <div class="offer-card" data-aos="flip-down" data-aos-duration="2000">
+            <div class="image-here"></div>
+            <div class="text-here">
+              <h4>$29.50</h4>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Far, far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="" class="btn-3">order now!</a>
+            </div>
+          </div>
+          <!--end of 2nd card-->
+          <!--3rd Offer card-->
+          <div class="offer-card"data-aos="flip-down"data-aos-duration="3000">
+            <div class="image-here"></div>
+            <div class="text-here">
+              <h4>$11.50</h4>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Far, far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="" class="btn-3">order now!</a>
+            </div>
+          </div>
+        </div> <!--end of offer grid section-->
+      </div>  <!--end of container-->
+    </section>
+    <!--end of offer-grid section-->
+    <!--Start of header Gallery-->
+    <section class="gallery">
+      <div class="container">
+        <div class="header-of-gallery">
+          <h2>gallery</h2>
+          <p>
+            Far, far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div> <!--end of header Gallery-->
+        <!--start of gallery section-->
+        <div class="gallery-parent-grid" data-aos="fade-down" data-aos-easing="ease-in"data-aos-duration="1000">
+          <div class="gallery-card">
+            <img src="food1.jpg" />
+          </div>
+          <div class="gallery-card">
+            <img src="food2.jpg" />
+          </div>
+          <div class="gallery-card">
+            <img src="food3.jpg" />
+          </div>
+          <div class="gallery-card">
+            <img src="food4.jpg" />
+          </div>
+          <div class="gallery-card">
+            <img src="food1.jpg" />
+          </div>
+          <div class="gallery-card">
+            <img src="food2.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Section Gallery-->
+    <!--start of footer-grid section-->
+    <footer class="restau-footer">
+      <div class="container">
+      <div class="footer-parent-grid">
+      <!--these are the 4 columns in the footer section-->
+      <div class="column1">
+        <h5>about us</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, similique, delecturs blanditiis odit expedia amet. Sed labore ipsum vel dolore, quis, culpa et magni autem sequi facere eos tenetur, ex?</p>
+      </div>
+      <div class="column2">
+        <h5>the restaurant</h5>
+        <ul>
+          <li>About Us</li>
+          <li>Chefs</li>
+          <li>Events</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="column3">
+        <h5>useful links</h5>
+        <ul>
+          <li>foods</li>
+          <li>drinks</li>
+          <li>breakfast</li>
+          <li>brunch</li>
+          <li>dinner</li>
+        </ul>
+      </div>
+      <div class="column4">
+        <h5>useful links</h5>
+        <ul>
+          <li>foods</li>
+          <li>drinks</li>
+          <li>breakfast</li>
+          <li>brunch</li>
+          <li>dinner</li>
+        </ul>
+      </div>
+      </div>
+      <!--end header of footer section/ start of font awesome social media icons-->
+      <div class="social-logos">
+      <ul class="contact-logos-flex">
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+        <p>Copyright©2024 Web Design by Sara Abdel Baset.</p>
+        </div>
+      </div> 
+    </div>
+    </footer>
+<!--link jquery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!---Before closing the body AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Fancy box link-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      let popup = document.getElementById("popup");
+      let body = document.getElementById("body");
+      document
+        .getElementById("close-btn")
+        .addEventListener("click", function () {
+          document.body.classList.remove("popup-is-active");
+        });
+      //when you click in the background the pop up closes also.
+      popup.addEventListener("click", function (event) {
+        if (event.target === document.getElementById("popup")) {
+          document.body.classList.remove("popup-is-active");
+        }
+      });
+      let hamb = document.getElementById("burger");
+      let close_nav = document.getElementById("close-nav");
+      hamb.addEventListener("click", function () {
+        document.body.classList.add("nav-is-open");
+      });
+      close_nav.addEventListener("click", function () {
+        document.body.classList.remove("nav-is-open");
+      });
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
